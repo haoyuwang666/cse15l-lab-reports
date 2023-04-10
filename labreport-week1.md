@@ -5,7 +5,7 @@ Go to the link provided here [link](https://code.visualstudio.com/) and follow t
 ***
 ## Step 2 *Remotely Connecting*
 * First you need to get your course-specific account here: [link](https://sdacs.ucsd.edu/~icc/index.php). Change the password following instructions on website.
-* Open a terminal in VScode (Ctrl or Command + `, or use the Terminal → New Terminal menu option). Then type in `$ ssh cs15lsp23zz@ieng6.ucsd.edu` with the "zz" replaced by your own cse15L course account.
+* Open a terminal in VScode (Ctrl or Command + "`", or use the Terminal → New Terminal menu option). Then type in `$ ssh cs15lsp23zz@ieng6.ucsd.edu` with the "zz" replaced by your own cse15L course account.
 * 
 
 
