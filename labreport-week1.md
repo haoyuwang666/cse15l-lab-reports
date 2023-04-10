@@ -66,7 +66,17 @@ ieng6-203   22:25:01   8   0.04,  0.13,  0.18
  
 Sun Apr 09, 2023 10:25pm - Prepping cs15lsp23
 ```
-
+![Image](screenshot2.png)
+***
+## Step 3 *TryingSomeCommands*
+There are a lot of commands that we can use in the terminal, here are some basic ones:
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls -a`
+* `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other group members’ username
+* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
 
 
