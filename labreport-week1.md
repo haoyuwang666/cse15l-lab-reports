@@ -33,7 +33,7 @@ for adhering to the ETS Acceptable Use Policies, which you can review at:
 https://blink.ucsd.edu/faculty/instruction/tech-guide/policies/ets-acceptable-use-policies.html
 =====================================================================
 
-*** Problems, Suggestions, or Feedback ***
+Problems, Suggestions, or Feedback 
     
     For help requests, please create a ticket at:
     https://support.ucsd.edu/its 
@@ -42,7 +42,7 @@ https://blink.ucsd.edu/faculty/instruction/tech-guide/policies/ets-acceptable-us
     mail -s "Your subject here" root
     Type your message - Ctrl+D to send
     
-*** Access our Linux ssh terminals or remote desktops via a web browser at: ***
+Access our Linux ssh terminals or remote desktops via a web browser at: ***
     https://linuxcloud.ucsd.edu
 
     All accounts must be enrolled in Duo for access. No VPN required.
