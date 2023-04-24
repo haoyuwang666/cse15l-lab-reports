@@ -36,7 +36,9 @@ class StringServer{
 
 * Screenshot 2" `add-message?s=cse15LSpring2023`
 ![Image](screenshot2.png)
-
+    * The handleRequest method were called to add a String according the query provided.
+    * The query method take the argument of the same url as screenshot 1. The value of string message is now "hello\ncse15LSpring2023"
+    * The value of message changed from "hello" to "hello\ncse15LSpring2023".
 
 ## **Part 2**
 
