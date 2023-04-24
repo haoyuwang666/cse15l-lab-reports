@@ -17,7 +17,6 @@ class Handler implements URLHandler{
         return String.format("%s",message);
     }
 }
-
 class StringServer{
     public static void main(String[] args) throws IOException{
         int port = Integer.parseInt(args[0]);
