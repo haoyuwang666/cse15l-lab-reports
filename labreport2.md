@@ -40,6 +40,32 @@ class StringServer{
     * The query method take the argument of the same url as screenshot 1. The value of string message is now "hello\ncse15LSpring2023"
     * The value of message changed from "hello" to "hello\ncse15LSpring2023".
 
+
 ## **Part 2**
+*The bug I choose: averageWithoutLowest*
+
+* A failure-inducing input:
+  ```
+    @Test
+    public void test3(){
+        double[] input = {2,2,4};
+        assertEquals(3,ArrayExamples.averageWithoutLowest(input),0);
+    }
+  ```
+* An input that does not induce a failure:
+  ```
+    @Test
+    public void test4(){
+        double[] input = {1,2,4};
+        assertEquals(3,ArrayExamples.averageWithoutLowest(input),0);
+    }
+  ```
+ *
+  
+  
+    
+
+
+
 
 
