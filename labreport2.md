@@ -27,7 +27,10 @@ class StringServer{
 
 * Screenshot 1: `add-message?s=hello`
 ![Image](screenshot1.png)
-
+    * The main method were first called to create a new url with port number 
 * Screenshot 2" `add-message?s=cse15LSpring2023`
 ![Image](screenshot2.png)
+
+## **Part 2**
+
 
