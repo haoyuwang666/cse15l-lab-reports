@@ -1,5 +1,5 @@
-#**Lab Report 2 - Servers and Bugs(Week 3)**
-##**Part 1**
+# **Lab Report 2 - Servers and Bugs(Week 3)**
+## **Part 1**
 * Code for StringServer.java(implemented in the week-2 lab wavelet folder):
 ```
 import java.io.IOException;
