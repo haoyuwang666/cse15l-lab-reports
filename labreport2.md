@@ -60,7 +60,45 @@ class StringServer{
         assertEquals(3,ArrayExamples.averageWithoutLowest(input),0);
     }
   ```
- *
+* The symptom screenshot:
+   ![Image](picture1.png)
+
+* Code of the older version(with bugs):
+    ```
+    static double averageWithoutLowest(double[] arr) {
+        if(arr.length < 2) { return 0.0; }
+        double lowest = arr[0];
+        for(double num: arr) {
+        if(num < lowest) { lowest = num; }
+        }
+        double sum = 0;
+        for(double num: arr) {
+        if(num != lowest) { sum += num; }
+        }
+        return sum / (arr.length - 1);
+        }
+    ```
+
+* Fixed code:
+    ```
+    static double averageWithoutLowest(double[] arr) {
+      if(arr.length < 2) { return 0.0; }
+      double lowest = arr[0];
+      for(double num: arr) {
+        if(num < lowest) { lowest = num; }
+      }
+      double sum = 0;
+      for(double num: arr) {
+        { sum += num; }
+      }
+      sum = sum-lowest;
+      return sum / (arr.length - 1);
+    }
+    ```
+The older version of bugs first find the lowest number using a for loop and then add up any number which is not equal to the lowest to the sum. However, if there are one or more duplicate lowest number, they will all be left out so that the sum is not correct. The corrected version first add up or the numbers in the array and substract only one occurence of the lowest number, in this way we can get the corrected average value without lowest number.
+        
+   
+   
   
   
     
