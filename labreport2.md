@@ -25,6 +25,9 @@ class StringServer{
 }
 ```
 
-* Screeshot 1: `add-message?s=hello`
-![Image](
+* Screenshot 1: `add-message?s=hello`
+![Image](screenshot1.png)
+
+* Screenshot 2" `add-message?s=cse15LSpring2023`
+![Image](screenshot2.png)
 
