@@ -37,7 +37,7 @@ class StringServer{
     * The value of message changed from "hello" to "hello\ncse15LSpring2023".
 ***
 ## **Part 2**
-*The bug I choose: averageWithoutLowest*
+  *The bug I choose: averageWithoutLowest*
 
   * A failure-inducing input:
   ```
