@@ -39,7 +39,7 @@ class StringServer{
 ## **Part 2**
 *The bug I choose: averageWithoutLowest*
 
-* A failure-inducing input:
+  * A failure-inducing input:
   ```
     @Test
     public void test3(){
@@ -47,7 +47,7 @@ class StringServer{
         assertEquals(3,ArrayExamples.averageWithoutLowest(input),0);
     }
   ```
-* An input that does not induce a failure:
+  * An input that does not induce a failure:
   ```
     @Test
     public void test4(){
@@ -55,10 +55,10 @@ class StringServer{
         assertEquals(3,ArrayExamples.averageWithoutLowest(input),0);
     }
   ```
-* The symptom screenshot:
+  * The symptom screenshot:
    ![Image](picture1.png)
 
-* Code of the older version(with bugs):
+  * Code of the older version(with bugs):
     ```
     static double averageWithoutLowest(double[] arr) {
         if(arr.length < 2) { return 0.0; }
@@ -74,7 +74,7 @@ class StringServer{
         }
     ```
 
-* Fixed code:
+  * Fixed code:
     ```
     static double averageWithoutLowest(double[] arr) {
       if(arr.length < 2) { return 0.0; }
@@ -90,7 +90,7 @@ class StringServer{
       return sum / (arr.length - 1);
     }
     ```
-The older version of bugs first find the lowest number using a for loop and then add up any number which is not equal to the lowest to the sum. However, if there are one or more duplicate lowest number, they will all be left out so that the sum is not correct. The corrected version first add up or the numbers in the array and substract only one occurence of the lowest number, in this way we can get the corrected average value without lowest number.
+  The older version of bugs first find the lowest number using a for loop and then add up any number which is not equal to the lowest to the sum. However, if there are one or more duplicate lowest number, they will all be left out so that the sum is not correct. The corrected version first add up or the numbers in the array and substract only one occurence of the lowest number, in this way we can get the corrected average value without lowest number.
 ***
 ## **Part 3**
   One thing I learned in the lab is that it is way more efficient to use tests to find bugs. I used to simply look at the code I wrote and try to find       something wrong by comparing it to the assignment requirement. But doing this is time-wasting and not efficient. By completing tasks in this two weeks'   lab, I acknowledged that by implementing some edge tests, we can easily find out what's the difference between actual value and expected value. In this   way, we can find out the potential bugs in our code according to the failure output.
