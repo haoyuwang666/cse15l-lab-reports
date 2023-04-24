@@ -26,4 +26,5 @@ class StringServer{
 ```
 
 * Screeshot 1: `add-message?s=hello`
+![Image](
 
