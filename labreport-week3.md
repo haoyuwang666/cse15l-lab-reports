@@ -30,12 +30,12 @@ class StringServer{
     * The main method take the argument by looking at the args[0] and create the new url using that argument as port number. The handleRequest method take       the url created in the main method as argument so that we can make changes to the websit using method inside the Handler class. The value of string         message is now "hello"
     * The value of message changed from "" to "hello".
 
-* Screenshot 2" `add-message?s=cse15LSpring2023`
+* Screenshot 2: `add-message?s=cse15LSpring2023`
 ![Image](screenshot2.png)
     * The handleRequest method were called to add a String according the query provided.
     * The query method take the argument of the same url as screenshot 1. The value of string message is now "hello\ncse15LSpring2023"
     * The value of message changed from "hello" to "hello\ncse15LSpring2023".
-
+***
 ## **Part 2**
 *The bug I choose: averageWithoutLowest*
 
@@ -91,7 +91,7 @@ class StringServer{
     }
     ```
 The older version of bugs first find the lowest number using a for loop and then add up any number which is not equal to the lowest to the sum. However, if there are one or more duplicate lowest number, they will all be left out so that the sum is not correct. The corrected version first add up or the numbers in the array and substract only one occurence of the lowest number, in this way we can get the corrected average value without lowest number.
-
+***
 ## **Part 3**
   One thing I learned in the lab is that it is way more efficient to use tests to find bugs. I used to simply look at the code I wrote and try to find       something wrong by comparing it to the assignment requirement. But doing this is time-wasting and not efficient. By completing tasks in this two weeks'   lab, I acknowledged that by implementing some edge tests, we can easily find out what's the difference between actual value and expected value. In this   way, we can find out the potential bugs in our code according to the failure output.
         
