@@ -96,6 +96,10 @@ class StringServer{
     }
     ```
 The older version of bugs first find the lowest number using a for loop and then add up any number which is not equal to the lowest to the sum. However, if there are one or more duplicate lowest number, they will all be left out so that the sum is not correct. The corrected version first add up or the numbers in the array and substract only one occurence of the lowest number, in this way we can get the corrected average value without lowest number.
+
+
+## **Part 3**
+  One thing I learned in the lab is that it is way more efficient to use tests to find bugs. I used to simply look at the code I wrote and try to find       something wrong by comparing it to the assignment requirement. But doing this is time-wasting and not efficient. By completing tasks in this two weeks'   lab, I acknowledged that by implementing some edge tests, we can easily find out what's the difference between actual value and expected value. In this   way, we can find out the potential bugs in our code according to the failure output.
         
    
    
