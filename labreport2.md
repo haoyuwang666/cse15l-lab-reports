@@ -26,20 +26,17 @@ class StringServer{
 }
 ```
 
-
 * Screenshot 1: `add-message?s=hello`
 ![Image](screenshot1.png)
     * The main method were first called to create a new url with port number 2391, and the handleRequest method were called to add a string according to         the query provided. 
     * The main method take the argument by looking at the args[0] and create the new url using that argument as port number. The handleRequest method take       the url created in the main method as argument so that we can make changes to the websit using method inside the Handler class. The value of string         message is now "hello"
     * The value of message changed from "" to "hello".
 
-
 * Screenshot 2" `add-message?s=cse15LSpring2023`
 ![Image](screenshot2.png)
     * The handleRequest method were called to add a String according the query provided.
     * The query method take the argument of the same url as screenshot 1. The value of string message is now "hello\ncse15LSpring2023"
     * The value of message changed from "hello" to "hello\ncse15LSpring2023".
-
 
 ## **Part 2**
 *The bug I choose: averageWithoutLowest*
