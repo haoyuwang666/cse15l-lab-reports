@@ -20,15 +20,15 @@ Type in "yes" to continue connecting.
 
 ![Image](screenshot2.png)
 ***
-## Step 3 *TryingSomeCommands*
+## Step 3 *Trying Some Commands*
 There are a lot of commands that we can use in the terminal, here are some basic ones:
-* `cd ~`
-* `cd`
-* `ls -lat`
-* `ls -a`
-* `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other group members’ username
-* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+* `cd ~` Change directory to home directory(a directory where a user's files are stored)
+* `cd` cd with no argument provided goes to home directory as well
+* `ls -lat` showing all the files within the current directory of our Linux system in the descending order of their time created
+* `ls -a` Type the ls -a command to list files or directories including hidden files or directories
+* `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other group members’ username. Type the ls [directory path here] command to list the contents of another directory. This shows the contents in your remote server
+* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` copy the hello.txt file in your directory
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` paste the hello.txt file in your directory
 ![Image](screenshot3.png)
 ***
 
