@@ -37,9 +37,9 @@ class StringServer{
     * The value of message changed from "hello" to "hello\ncse15LSpring2023".
 ***
 ## **Part 2**
-  *The bug I choose: averageWithoutLowest*
+*The bug I choose: averageWithoutLowest*
 
-  * A failure-inducing input:
+* A failure-inducing input:
   ```
     @Test
     public void test3(){
@@ -47,7 +47,7 @@ class StringServer{
         assertEquals(3,ArrayExamples.averageWithoutLowest(input),0);
     }
   ```
-  * An input that does not induce a failure:
+* An input that does not induce a failure:
   ```
     @Test
     public void test4(){
@@ -55,10 +55,10 @@ class StringServer{
         assertEquals(3,ArrayExamples.averageWithoutLowest(input),0);
     }
   ```
-  * The symptom screenshot:
+* The symptom screenshot:
    ![Image](picture1.png)
 
-  * Code of the older version(with bugs):
+* Code of the older version(with bugs):
     ```
     static double averageWithoutLowest(double[] arr) {
         if(arr.length < 2) { return 0.0; }
@@ -74,7 +74,7 @@ class StringServer{
         }
     ```
 
-  * Fixed code:
+* Fixed code:
     ```
     static double averageWithoutLowest(double[] arr) {
       if(arr.length < 2) { return 0.0; }
