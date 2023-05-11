@@ -2,5 +2,5 @@
 I choose to focus on 'grep' commands and did some research on it.
 ## Using '-r'/'--recursive'
 * Description: Recursively searches files and directories.
-* Source: [GNU Grep Manual}(https://www.gnu.org/software/grep/manual/grep.html#Recursive-Searching)
+* Source: [GNU Grep Manual](https://www.gnu.org/software/grep/manual/grep.html#Recursive-Searching)
 >Example 1
