@@ -11,5 +11,5 @@
 **Key pressed**: `"git" <space> "clone" <space> <command+v>` Using git clone to copy my fork of lab7 to my ieng6 account. Since I have already copy the link of the fork on my Github account, I directly paste it on my terminal.
 
 ## Step 6-Run the tests, demonstrating that they fail
-**Key pressed**:
+**Key pressed**: `"cd" <space> "lab7" <enter>`change directory to lab7 to access the files, `"bash' <space> "test.sh" <enter>` run the shell file which is used to run the JUnit tests.
 
