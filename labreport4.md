@@ -21,5 +21,9 @@
 * `"i"` entering insert mode, `"index2"` changing index1 to index2, `<esc>` exiting the insert mode, `":wq" <enter>` save and exit the vim.
 
 ## Step 8-Run the tests, demonstrating that they now succeed
-**Key pressed**: `<up><up><up><enter>`since I ran the "test.sh" before, it is 3 command lines above(I used vimtutor during the task so there's one more line), so I pressed <up> for 3 times and run the test again.
+**Key pressed**: `<up><up><up><enter>`since I ran the "test.sh" before, it is 3 command lines above(I used vimtutor during the task so there's one more line), so I pressed "up" key for 3 times and run the test again.
+
+## Step 9-Commit and push the resulting change to your Github account (you can pick any commit message!)
+**Key pressed**: `"git" <space> "commit" <space> "-m" <space> "ListExamples.java"` commit changes not using editor, `""report updated""` typing the commit message.
+
 
