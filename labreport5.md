@@ -1,4 +1,6 @@
 # Lab Report 5-Putting it All Together
+
+# Part1: Debugging Scenario
 ## Original Post of a Debugging question
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
