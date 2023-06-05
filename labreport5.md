@@ -33,7 +33,10 @@ Here is my code of ListExamples.java and my tests ListExamplesTests.java:
 
 ## Setup Conclusion
 * **Directory structure & files:** [Lab7-main](https://github.com/haoyuwang666/lab7)
-* **Contents of the file before fixing bugs:** included in the directory structure above.
+	![Image](666.png)
+* **Contents of the file before fixing bugs:** 
+	ListExamples.java:
+	
 * **Full command line which triggers the bug:** 
 	`bash test.sh`
 	with contents of the test.sh shell file:
