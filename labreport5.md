@@ -33,6 +33,8 @@ Here is my code of ListExamples.java and my tests ListExamplesTests.java:
 
 ## Setup Conclusion
 * **Directory structure & files:** [Lab7-main](https://github.com/haoyuwang666/lab7)
+
+
 ![Image](666.png)
 * **Contents of the file before fixing bugs:** 
 	ListExamples.java:
