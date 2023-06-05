@@ -34,6 +34,7 @@ Here is my code of ListExamples.java and my tests ListExamplesTests.java:
 ## Setup Conclusion
 * **Directory structure & files:** [Lab7-main](https://github.com/haoyuwang666/lab7)
 * **Contents of the file before fixing bugs:**
+  
   ListExamples.java:
   ```
   import java.util.ArrayList;
@@ -55,8 +56,6 @@ class ListExamples {
     }
     return result;
   }
-
-
   // Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
@@ -84,6 +83,7 @@ class ListExamples {
   }
 }
 ```
+
 ListExamplesTests.java:
 ```
 import static org.junit.Assert.*;
@@ -109,6 +109,7 @@ public class ListExamplesTests {
 
 }
 ```                                
+
 test.sh:  
 ``` 
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
