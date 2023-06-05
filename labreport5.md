@@ -38,7 +38,7 @@ Here is my code of ListExamples.java and my tests ListExamplesTests.java:
 ![Image](666.png)
 * **Contents of the file before fixing bugs:** 
 	ListExamples.java:
-![Image](777.png)
+![Image](999.png)
 	ListExamplesTests.java:
 ![Image](888.png)
 	test.sh:
