@@ -43,3 +43,7 @@ Here is my code of ListExamples.java and my tests ListExamplesTests.java:
 	```
 * **Description of what to edit to fix the bug:** Change `index+=1` in the last while loop to `index+=2` to properly add elements from list2 to the result arraylist and prevent the loop from running infinite times.
 
+
+## Part2: Reflection
+The most useful thing I learned is about how the gradescope works internally. GradeScope use shell file with some meaningful command lines to run students' code and give scores according to the behavior of their code. I have no idea before attending lectures and lab7 how gradscope tests our code and gives us score(I initially assume insturctors are using some magical commands or they are the ones behind the screen to run our codes manually). Knowing how it actually work give me a sense of how my programming assignments are evaluated and also inspired me on how to create meaningful and effective test cases by myself. It feels great to know the whole process of what happened behind the scenes.
+
