@@ -41,4 +41,5 @@ Here is my code of ListExamples.java and my tests ListExamplesTests.java:
 	javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 	java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 	```
+* **Description of what to edit to fix the bug:** Change `index+=1` in the last while loop to `index+=2` to properly add elements from list2 to the result arraylist and prevent the loop from running infinite times.
 
