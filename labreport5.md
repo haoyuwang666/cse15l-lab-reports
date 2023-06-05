@@ -37,6 +37,7 @@ Here is my code of ListExamples.java and my tests ListExamplesTests.java:
 
 ![Image](666.png)
 * **Contents of the file before fixing bugs:** 
+	
 	ListExamples.java:
 ![Image](999.png)
 	ListExamplesTests.java:
